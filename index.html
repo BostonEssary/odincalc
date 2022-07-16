@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculatorBody">
+        <textarea readonly id="display" maxlength='7' rows="1" style="resize: none"></textarea>
+        <div id="buttonHolder">
+            <div>
+                <div id="displayButtonsHolder">
+                    <button class="button displayButton" id="clear">Clear</button>
+                    <button class="button displayButton" id="delete">Delete</button>
+                </div>
+            </div>
+            <div id="mainButtons">
+                <div id="numButtons">
+                </div>
+                <div id="operateButtons">
+                    <button class="button smallButtons" id="subtract" value="-">-</button>
+                    <button class="button smallButtons" id="multiply" value="*">*</button>
+                    <button class="button smallButtons" id="add" value="+">+</button>
+                    <button class="button smallButtons" id="divide" value="/">&#247;</button>
+                    <button class="button smallButtons" id="equal">=</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

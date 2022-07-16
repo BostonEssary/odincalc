@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+
+#calculatorBody {
+    width: 400px;
+    height: 500px;
+    background-color: lightskyblue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid lightgoldenrodyellow;
+}
+
+#buttonHolder {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#mainButtons {
+    display: flex;
+}
+
+#operateButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+#numButtons {
+   display: flex;
+   flex-wrap: wrap;
+   width: 300px;
+   justify-content: center;
+   
+    
+}
+
+#display {
+    
+    width: 300px;
+    margin: 5px;
+    text-align: right;
+    padding-top: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 12px;
+}
+
+#displayButtonsHolder {
+    display: flex;
+    justify-content: center;
+}
+
+#clear {
+    background-color: lightcoral;
+}
+
+#delete {
+    background-color: lightseagreen;
+}
+
+
+.button {
+    margin: 2px;
+    height:50px;
+    width: 50px;
+    border: none;
+    border-radius: 12px;
+}
+.button:hover {
+    scale: 1.03;
+    border: 2px solid white;
+}
+
+.numButton {
+    height: 75px;
+    width: 75px;
+}
+
+.displayButton {
+    width: 150px;
+}
+
+.smallButtons {
+    background-color: khaki;
+}
